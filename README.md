@@ -1,1 +1,2 @@
-# vagrant
+# Vagrant
+Just a vagrant repository
