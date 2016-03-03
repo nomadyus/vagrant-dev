@@ -1,0 +1,3 @@
+# Set the MySQL timezone.
+[mysqld_safe]
+timezone = UTC
