@@ -24,7 +24,7 @@ Vagrant.configure(2) do |config|
     config.vm.provision "puppet" do |puppet|
         puppet.manifests_path = "puppet/manifests"
         puppet.module_path = "puppet/modules"
-        puppet.manifest_file = "precise64.pp"
+        puppet.manifest_file = "default.pp"
         puppet.options = "--verbose --debug"
         # place main parent folder here
         config.vm.synced_folder "../", "/vagrant", id: "vagrant-root", owner:"root", group: "root"
