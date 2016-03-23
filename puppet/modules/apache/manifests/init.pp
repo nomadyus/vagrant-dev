@@ -9,5 +9,4 @@ class apache {
         enable => true,
 		require => Package["apache2"],
 	}
-
 }

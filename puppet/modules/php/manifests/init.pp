@@ -1,5 +1,4 @@
 class php {
-
 	# Install the php5-fpm and php5-cli packages
 	package { ['php5-fpm', 'php5-cli', 'libapache2-mod-php5']:
 		ensure => present,

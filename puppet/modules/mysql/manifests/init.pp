@@ -29,6 +29,6 @@ class mysql {
 		unless  => 'mysqladmin -uroot -p${root_password} status',
 		command => "mysqladmin -uroot password ${root_password}",
 		path    => ['/bin', '/usr/bin'],
-		require => Service['mysql'];
+		require => Service['mysql'],
 	}
 }
