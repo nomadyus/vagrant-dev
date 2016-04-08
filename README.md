@@ -36,9 +36,9 @@ The configuration for each package is located in their respective folder. The pa
 1.  Edit the VirtualHost entry in [/puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
 1.  Open a terminal, go to the location of the git repository and boot up the vagrant box
 
-``
+```
     $ vagrant up 
-``
+```
 
 And that is it!
 
