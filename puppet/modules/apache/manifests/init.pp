@@ -3,10 +3,4 @@ class apache {
 		ensure  => present,
 		require => Class["system-update"],
 	}
-
-	service { "apache2":
-		ensure  => "running",
-        enable => true,
-		require => Package["apache2"],
-	}
 }
