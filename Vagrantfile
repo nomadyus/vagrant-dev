@@ -17,7 +17,8 @@ Vagrant.configure(2) do |config|
     config.vm.provider :virtualbox do |vb|
         # Use VBoxManage to customize the VM. For example to change memory:
         vb.customize ["modifyvm", :id, "--memory", "1024"]
-        vb.name = "yusuf.dev"
+        # Top level domain name
+        vb.name = "albatoss.dev"
     end
     
     # Use Puppet for provisioning

@@ -2,9 +2,11 @@
 Just a vagrant repository for any web developement using a LAMP stack with Puppet and Vagant.
 
 ## Specifications
-- ip: "192.168.33.10"
+- ip:       "192.168.33.10"
 - provider: "virtualBox"
-- box: "precise32"
+- box:      "precise64"
+- hostname: "albatross"
+- name/url: "albatross.dev"
 
 ## Requiements
 - [Vagrant](https://www.vagrantup.com/)
@@ -24,7 +26,7 @@ The configuration for each package is located in their respective folder. The pa
     
 ## Vagrant Box Installation
 ```
-    $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
+    $ vagrant box add precise32 http://files.vagrantup.com/precise64.box
 ```
     
 ## Installation Instructon
