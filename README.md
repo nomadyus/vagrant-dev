@@ -30,7 +30,7 @@ The configuration for each package is located in their respective folder. The pa
 ## Installation Instructon
 1.  Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) 
 1.  Install [Vagrant](https://www.vagrantup.com/downloads.html)
-1.  Install 'precise32' vagrant box
+1.  Install ['precise32'](#vagrant-box-installation) vagrant box
 1.  Clone this repository 
 1.  Create a directory for your developement domain on the same level as this clone
 1.  Edit the VirtualHost entry in [/puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
