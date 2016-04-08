@@ -20,7 +20,7 @@ The configuration for each package is located in their respective folder. The pa
     - mysql-server
     
 - apache
-    - apach2
+    - apache2
     
 ## Vagrant Box Installation
 ``
@@ -33,7 +33,7 @@ The configuration for each package is located in their respective folder. The pa
 1.  Install 'precise32' vagrant box
 1.  Clone this repository 
 1.  Create a directory for your developement domain on the same level as this clone
-1.  Edit the VirtualHost entry in [/puppet/modules/vhost/site.conf](/puppet/modules/vhost/site.conf) to point to your development domain diectory
+1.  Edit the VirtualHost entry in [/puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
 
 ## Credits
 - [Puppet.com](https://puppet.com/blog/lamp-stacks-made-easy-vagrant-puppet) - LAMP Stacks Made Easy with Vagrant & Puppet 
