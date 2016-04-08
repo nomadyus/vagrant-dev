@@ -19,8 +19,7 @@ The configuration for each package is located in their respective folder. The pa
     - php5-cli
     - libapache2-mod-php5
 - mysql
-    - mysql-server
-    
+    - mysql-server    
 - apache
     - apache2
     
