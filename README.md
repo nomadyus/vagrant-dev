@@ -23,9 +23,9 @@ The configuration for each package is located in their respective folder. The pa
     - apache2
     
 ## Vagrant Box Installation
-``
+```
     $ vagrant box add precise32 http://files.vagrantup.com/precise32.box
-``
+```
     
 ## Installation Instructon
 1.  Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) 
