@@ -1,4 +1,5 @@
-# Vagrant
+# Albatross
+## The LAMP stack Vagrant Repository
 Just a vagrant repository for any web developement using a LAMP stack with Puppet and Vagant.
 
 ## Specifications
@@ -25,16 +26,16 @@ The configuration for each package is located in their respective folder. The pa
     
 ## Vagrant Box Installation
 ```
-    $ vagrant box add precise32 http://files.vagrantup.com/precise64.box
+    $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 ```
     
 ## Installation Instructon
 1.  Install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) 
 1.  Install [Vagrant](https://www.vagrantup.com/downloads.html)
-1.  Install ['precise32'](#vagrant-box-installation) vagrant box
+1.  Install ['precise64'](#vagrant-box-installation) vagrant box
 1.  Clone this repository 
 1.  Create a directory for your developement domain on the same level as this clone
-1.  Edit the VirtualHost entry in [/puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
+1.  Edit the VirtualHost entry in [puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
 1.  Open a terminal, go to the location of the git repository and boot up the vagrant box
 
 ```
