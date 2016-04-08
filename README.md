@@ -6,7 +6,7 @@ Just a vagrant repository for any web developement using a LAMP stack with Puppe
 - provider: "virtualBox"
 - box:      "precise64"
 - hostname: "albatross"
-- name/url: "albatross.dev"
+- vb name:  "albatross.dev"
 
 ## Requiements
 - [Vagrant](https://www.vagrantup.com/)
