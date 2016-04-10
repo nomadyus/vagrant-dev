@@ -36,13 +36,16 @@ The configuration for each package is located in their respective folder. The pa
 4.  Clone this repository 
 5.  Create a directory for your developement domain on the same level as this clone
 6.  Edit the VirtualHost entry in [puppet/modules/vhost/files/site.conf](/puppet/modules/vhost/files/site.conf) to point to your development domain diectory
-7.  Add your following to your machine host file 
+7.  Open your hosts files
+    -    For Linux based development system `` /etc/hosts ``
+    -    For Windows based development system `` C:\Windows\System32\drivers\etc\hosts ``
+    
+8. Add the following to your machine host file 
 ``` 
     192.168.33.10 yusuf.dev 
 ```
--    For Linux based development system `` /etc/hosts ``
--    For Windows based development system `` C:\Windows\System32\drivers\etc\hosts ``
-8.  Open a terminal, go to the location of the git repository and boot up the vagrant box
+
+9.  Open a terminal, go to the location of the git repository and boot up the vagrant box
 
 ```
     $ vagrant up 
