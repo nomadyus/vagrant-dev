@@ -1,4 +1,4 @@
-class vhost { 
+class vhost {    
     # ensures that mode_rewrite is loaded and modifies the default configuration file
     file { "/etc/apache2/mods-enabled/rewrite.load":
         ensure => link,
