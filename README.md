@@ -41,17 +41,15 @@ The configuration for each package is located in their respective folder. The pa
     -    For Windows based development system `` C:\Windows\System32\drivers\etc\hosts ``
     
 8. Add the following to your machine host file 
-``` 
-    192.168.33.10 yusuf.dev 
-```
-
+``
+    192.168.33.10 albatross.dev 
+``
 9.  Open a terminal, go to the location of the git repository and boot up the vagrant box
 
 ```
     $ vagrant up 
 ```
 
-    
 
 And that is it!
 
