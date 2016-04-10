@@ -40,6 +40,11 @@ The configuration for each package is located in their respective folder. The pa
 ```
     $ vagrant up 
 ```
+1.  Add your following to your machine host file 
+``` 192.168.33.10 yusuf.dev ```
+-    For Linux based development system `` /etc/hosts ``
+-    For Windows based development system `` C:\Windows\System32\drivers\etc\hosts ``
+    
 
 And that is it!
 
