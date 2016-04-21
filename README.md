@@ -23,6 +23,9 @@ The configuration for each package is located in their respective folder. The pa
     - mysql-server    
 - apache
     - apache2
+- Github Pages
+    - ruby 1.9.3
+    - gem github-pages    
     
 ## Vagrant Box Installation
 ```
@@ -56,3 +59,5 @@ And that is it!
 ## Credits
 - [Puppet.com](https://puppet.com/blog/lamp-stacks-made-easy-vagrant-puppet) - LAMP Stacks Made Easy with Vagrant & Puppet 
 - [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack)
+- [Puppet CookBook](http://www.puppetcookbook.com/)
+- [Google groups - Puppet Users](https://groups.google.com/forum/#!topic/puppet-users/w7D5695FCls)
