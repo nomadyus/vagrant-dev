@@ -9,7 +9,7 @@ Just a vagrant repository for any web developement using a LAMP stack with Puppe
 - hostname: "albatross"
 - vb name:  "albatross.dev"
 
-## Requiements
+## Requirements
 - [Vagrant](https://www.vagrantup.com/)
 - [Virtual Box](https://www.virtualbox.org/)
 
@@ -25,7 +25,7 @@ The configuration for each package is located in their respective folder. The pa
     - apache2
 - Github Pages
     - ruby 1.9.3
-    - gem github-pages    
+    - gem "github-pages"    
     
 ## Vagrant Box Installation
 ```
@@ -52,7 +52,14 @@ The configuration for each package is located in their respective folder. The pa
 ```
     $ vagrant up 
 ```
-
+10. Connect to the vagrant environment
+```
+    $ vagrant ssh
+```
+11. Start up the jekyll server
+```
+    $ jekyll serve 
+```
 
 And that is it!
 
@@ -61,3 +68,4 @@ And that is it!
 - [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack)
 - [Puppet CookBook](http://www.puppetcookbook.com/)
 - [Google groups - Puppet Users](https://groups.google.com/forum/#!topic/puppet-users/w7D5695FCls)
+- [Jes.al for Ruby and Jekyll installation](http://jes.al/2014/04/setup-dev-environment-using-vagrant-puppet-part-ii/)
