@@ -1,6 +1,6 @@
 # Albatross
 ## The LAMP stack Vagrant Repository
-Just a vagrant repository for any web developement using a LAMP stack with Puppet and Vagant.
+Just a vagrant repository for any web development using a LAMP stack with Puppet and Vagant.
 
 ## Specifications
 - ip:       "192.168.33.10"
@@ -22,10 +22,7 @@ The configuration for each package is located in their respective folder. The pa
 - mysql
     - mysql-server    
 - apache
-    - apache2
-- Github Pages
-    - ruby 1.9.3
-    - gem "github-pages"    
+    - apache2   
     
 ## Vagrant Box Installation
 ```
@@ -44,22 +41,20 @@ The configuration for each package is located in their respective folder. The pa
     -    For Windows based development system `` C:\Windows\System32\drivers\etc\hosts ``
     
 8. Add the following to your machine host file 
-``
-    192.168.33.10 albatross.dev 
-``
+
+    ``
+        192.168.33.10 albatross.dev 
+    ``
 9.  Open a terminal, go to the location of the git repository and boot up the vagrant box
 
-```
-    $ vagrant up 
-```
+    ```
+        $ vagrant up 
+    ```
 10. Connect to the vagrant environment
-```
-    $ vagrant ssh
-```
-11. Start up the jekyll server
-```
-    $ jekyll serve 
-```
+
+    ```
+        $ vagrant ssh
+    ```
 
 And that is it!
 
@@ -68,4 +63,3 @@ And that is it!
 - [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack)
 - [Puppet CookBook](http://www.puppetcookbook.com/)
 - [Google groups - Puppet Users](https://groups.google.com/forum/#!topic/puppet-users/w7D5695FCls)
-- [Jes.al for Ruby and Jekyll installation](http://jes.al/2014/04/setup-dev-environment-using-vagrant-puppet-part-ii/)
